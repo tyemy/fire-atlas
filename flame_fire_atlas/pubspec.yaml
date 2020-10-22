@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flame: '>=0.23.0 <1.0.0'
+  flame:
+    git:
+      url: git@github.com:tyemy/flame.git
+      ref: develop
   archive: ^2.0.13
 
 dev_dependencies:
